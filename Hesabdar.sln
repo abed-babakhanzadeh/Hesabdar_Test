@@ -15,9 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ui", "Ui", "{6C6AFF8A-F92A-46C8-84C7-C3B476E0842F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabdar.Domain", "Hesabdar.Domain\Hesabdar.Domain.csproj", "{3BFBE21A-61EE-4C02-B20A-3308DE881DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hesabdar.Domain", "Hesabdar.Domain\Hesabdar.Domain.csproj", "{3BFBE21A-61EE-4C02-B20A-3308DE881DD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesabdar.Application", "Hesabdar.Application\Hesabdar.Application.csproj", "{3DF9954B-3FEA-41E3-948D-9D656BEE1FF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hesabdar.Application", "Hesabdar.Application\Hesabdar.Application.csproj", "{3DF9954B-3FEA-41E3-948D-9D656BEE1FF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{621D3EB2-46DC-4466-8F41-CCAEAEB4EF56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3DF9954B-3FEA-41E3-948D-9D656BEE1FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DF9954B-3FEA-41E3-948D-9D656BEE1FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DF9954B-3FEA-41E3-948D-9D656BEE1FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621D3EB2-46DC-4466-8F41-CCAEAEB4EF56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621D3EB2-46DC-4466-8F41-CCAEAEB4EF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621D3EB2-46DC-4466-8F41-CCAEAEB4EF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621D3EB2-46DC-4466-8F41-CCAEAEB4EF56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{6C6AFF8A-F92A-46C8-84C7-C3B476E0842F} = {57CC4FBB-7A84-4137-8701-AF2D754F5396}
 		{3BFBE21A-61EE-4C02-B20A-3308DE881DD4} = {637406B2-EB83-4359-9F50-D696E8501DC7}
 		{3DF9954B-3FEA-41E3-948D-9D656BEE1FF5} = {637406B2-EB83-4359-9F50-D696E8501DC7}
+		{621D3EB2-46DC-4466-8F41-CCAEAEB4EF56} = {6C6AFF8A-F92A-46C8-84C7-C3B476E0842F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6ED48595-E3A6-46E4-B420-E16338639E74}

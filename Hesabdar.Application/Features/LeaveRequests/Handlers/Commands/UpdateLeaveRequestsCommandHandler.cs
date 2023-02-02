@@ -23,9 +23,9 @@ namespace Hesabdar.Application.Features.LeaveRequests.Handlers.Commands
 		public async Task<Unit> Handle(UpdateLeaveRequestsCommand request, CancellationToken cancellationToken)
 		{
 			var leaveRequest = await _leaveRequest.Get(request.Id);
-			if (request.LeaveRequestDto != null)
+			if (request.UpdateLeaveRequestDto != null)
 			{
-				_mapper.Map(request.LeaveRequestDto, leaveRequest);
+				_mapper.Map(request.UpdateLeaveRequestDto, leaveRequest);
 				await _leaveRequest.Update(leaveRequest);
 			}
 			else if (request.ChangeLeaveRequestsApprovedDto != null)
