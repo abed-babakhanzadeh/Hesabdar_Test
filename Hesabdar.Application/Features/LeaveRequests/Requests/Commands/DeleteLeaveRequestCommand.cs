@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Hesabdar.Application.Features.LeaveRequests.Requests.Commands
+﻿namespace Hesabdar.Application.Features.LeaveRequests.Requests.Commands
 {
 	using MediatR;
 

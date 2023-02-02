@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Hesabdar.Application.DTOs.Common
+﻿namespace Hesabdar.Application.DTOs.Common
 {
 	public class BaseDto
 	{

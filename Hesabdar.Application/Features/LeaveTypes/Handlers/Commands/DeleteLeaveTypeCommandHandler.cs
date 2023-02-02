@@ -1,19 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Hesabdar.Application.Features.LeaveTypes.Handlers.Commands
+﻿namespace Hesabdar.Application.Features.LeaveTypes.Handlers.Commands
 {
-	using System.Threading;
-	using System.Threading.Tasks;
-
 	using AutoMapper;
-	using AutoMapper.Configuration;
-
 	using Hesabdar.Application.Features.LeaveTypes.Requests.Commands;
 	using Hesabdar.Application.Persistence.Contracts;
-
 	using MediatR;
+	using System.Threading;
+	using System.Threading.Tasks;
 
 	public class DeleteLeaveTypeCommandHandler : IRequestHandler<DeleteLeaveTypeCommand>
 
@@ -31,6 +23,6 @@ namespace Hesabdar.Application.Features.LeaveTypes.Handlers.Commands
 			var leavetype = await _leaveType.Get(request.Id);
 			await _leaveType.Delete(request.Id);
 			return Unit.Value;
-		} 
+		}
 	}
 }

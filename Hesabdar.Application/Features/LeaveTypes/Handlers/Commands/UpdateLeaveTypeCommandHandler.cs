@@ -1,11 +1,7 @@
 ﻿using AutoMapper;
 using Hesabdar.Application.Features.LeaveTypes.Requests.Commands;
 using Hesabdar.Application.Persistence.Contracts;
-using Hesabdar.Domain;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -30,7 +26,7 @@ namespace Hesabdar.Application.Features.LeaveTypes.Handlers.Commands
 			_mapper.Map(request.LeaveTypeDto, leaveType);
 			await _leaveType.Update(leaveType);
 			return Unit.Value;
-			
+
 		}
 	}
 }

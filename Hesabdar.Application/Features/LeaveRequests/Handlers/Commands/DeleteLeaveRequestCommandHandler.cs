@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Hesabdar.Application.Features.LeaveRequests.Handlers.Commands
+﻿namespace Hesabdar.Application.Features.LeaveRequests.Handlers.Commands
 {
+	using AutoMapper;
 	using Hesabdar.Application.Features.LeaveRequests.Requests.Commands;
+	using Hesabdar.Application.Persistence.Contracts;
 	using MediatR;
 	using System.Threading;
 	using System.Threading.Tasks;
-
-	using AutoMapper;
-
-	using Hesabdar.Application.Persistence.Contracts;
 
 	public class DeleteLeaveRequestCommandHandler : IRequestHandler<DeleteLeaveRequestCommand>
 	{
